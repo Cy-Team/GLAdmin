@@ -1,0 +1,46 @@
+.invoice {
+    overflow: auto;
+    height: 100%;
+}
+
+.invoice .panel {
+    background-color: #fff;
+}
+
+.tblpanel {
+    margin-top: 1.25rem;
+}
+
+
+/*金额管理*/
+
+.invoice .moneyList {
+    padding: 1.25rem;
+}
+
+
+/*发票剩余*/
+
+.invoice .surplus {
+    margin-left: 1rem;
+    background-color: #fff;
+}
+
+.invoice .surplustbl {
+    padding: 1.25rem;
+}
+
+
+/*系统入账*/
+
+.invoice .sysaccount {
+    margin-top: 0.8rem;
+}
+
+.invoice .syschunk {
+    padding: 1.25rem;
+}
+
+.syschunktbl {
+    margin-top: 1.25rem;
+}

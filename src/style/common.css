@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/*公用*/
+
+a {
+    text-decoration: none;
+}
+
+.locaabs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.headline {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #EFF2F7;
+}
+
+.headline .title {
+    margin-left: 20px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #41546d;
+    font-size: 1.125rem;
+}
+
+.headline .title:before {
+    content: "";
+    display: block;
+    border: none;
+    height: 100%;
+    width: 0.25rem;
+    background-color: #f63c42;
+    border-radius: 0.125rem;
+    float: left;
+    margin-right: 0.625rem;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.alginleft {
+    text-align: left
+}
+
+.svg-icon{
+    height: 1em;
+    width: 1em;
+    fill: currentColor; 
+}
+
+/*分割线*/
+
+.partingline {
+    width: 100%;
+    height: #EFF2F7;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* 布局 */
+
+#app {
+    height: 100%;
+    width: 100%;
+}
+
+#app .handle {
+    height: 3.75rem;
+}
+
+#app .bottom-panel {
+    top: 3.75rem;
+}
+
+.left {
+    position: relative;
+    float: left;
+    width: 12.5rem;
+    /* 数值核心1 */
+    height: 100%;
+    margin-right: -12.5rem;
+}
+
+.right {
+    float: right;
+    width: 100%;
+    height: 100%;
+}
+
+.right-content {
+    margin-left: 12.5rem;
+    /* 数值核心3 */
+    height: 100%;
+    background-color: #edf4f9;
+    position: relative;
+}
+
+.right-content .area {
+    position: absolute;
+    top: 0.875rem;
+    left: 0.875rem;
+    bottom: 0.875rem;
+    right: 0.875rem;
+}
+
+::-webkit-scrollbar {
+    width: 0.625rem;
+    height: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+    background: 0 0
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #666
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #535353
+}
+
+::-webkit-scrollbar-resizer {
+    background-color: #FF6E00
+}
